@@ -1,0 +1,4 @@
+message State {
+  required uint64 sequence = 1;
+  optional bytes signed = 2;
+}

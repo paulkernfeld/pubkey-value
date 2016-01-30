@@ -1,0 +1,26 @@
+{
+  "name": "pubkey-value",
+  "version": "0.1.0",
+  "description": "Replicate a single signed value",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "author": "Paul Kernfeld",
+  "license": "ISC",
+  "devDependencies": {
+    "signalhub": "^4.3.2",
+    "split": "^1.0.0",
+    "standard": "^5.4.1",
+    "tape": "^4.4.0",
+    "through2-map": "^2.0.0",
+    "webrtc-swarm": "^2.4.0"
+  },
+  "dependencies": {
+    "buffer-to-uint8array": "^1.1.0",
+    "duplexify": "^3.4.3",
+    "length-prefixed-stream": "^1.4.0",
+    "protocol-buffers": "^3.1.6",
+    "tweetnacl": "^0.14.1"
+  }
+}
